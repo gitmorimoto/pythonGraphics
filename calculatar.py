@@ -19,6 +19,9 @@ button_7=tk.Button(root,text='7',padx=40,pady=20,command=button_add)
 button_8=tk.Button(root,text='8',padx=40,pady=20,command=button_add)
 button_9=tk.Button(root,text='9',padx=40,pady=20,command=button_add)
 button_0=tk.Button(root,text='0',padx=40,pady=20,command=button_add)
+button_plus=tk.Button(root,text='+',padx=39,pady=20,command=button_add)
+button_equal=tk.Button(root,text='=',padx=86,pady=20,command=button_add)
+button_clear=tk.Button(root,text='clear',padx=78,pady=20,command=button_add)
 #place buttons
 button_1.grid(row=3,column=0)
 button_2.grid(row=3,column=1)
@@ -33,6 +36,10 @@ button_8.grid(row=1,column=1)
 button_9.grid(row=1,column=2)
 
 button_0.grid(row=4,column=0)
+button_clear.grid(row=4,column=1,columnspan=2)
+button_plus.grid(row=5,column=0)
+button_equal.grid(row=5,column=1,columnspan=2)
+
 #padx and pady are padding options
 #padx (padding-x): Adds horizontal space outside the widget (to the left and right).
 #pady (padding-y): Adds vertical space outside the widget (above and below).
