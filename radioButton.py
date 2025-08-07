@@ -2,7 +2,7 @@ import tkinter as tk
 from PIL import ImageTk,Image
 
 root=tk.Tk()
-root.title('learn to code at codemy.com')
+root.title('learn to code at codemy.com')clea
 root.iconbitmap('c:/gui/092.ico')
 r = tk.IntVar()
 r.set('2')
